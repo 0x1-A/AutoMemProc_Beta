@@ -1,9 +1,9 @@
 ## PLUGIN STATUS
 
-| First Header   |
+| Image Identification   |    Processes and DLLs          |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| windows.info.Info  | Content Cell  |
+|   | Content Cell  |
 
   - Image Identification
 
