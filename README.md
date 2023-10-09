@@ -21,7 +21,8 @@ AutoMemProc is a tool designed to simplify and streamline the process of analyzi
 
 # Current Capabilities:
  - # Volatility 3 v2.5.1 Plugins
- - # Windowns Memory Images 
-    - Typs: .img, .dmp, .raw, .bin, .mem, .dump, .dat, .lime, .crash, .vmem
+ - # Windowns Memory Images
+   - Typs: .img, .dmp, .raw, .bin, .mem, .dump, .dat, .lime, .crash, .vmem
  - # Processing one memory image. 
 
+ 
