@@ -66,23 +66,33 @@ However, this process only needs to be run once on each new symbol file, so assu
 
 Once the above requriment downloaded and installed, 
 
-Step 1 : Tool Execution: 
+1. Tool Execution: 
 
 ```shell
 pwsh automemproc.ps1
 ```
 
-Step 2 : If the tool in the same folder as memory image files, select from the displayed list. if no, type folder that stored Memory Image files or spicify file. 
-Example:
-/home/test/Desktop/memory/
-OR
-/home/test/Desktop/memory/memory.img
-OR
-~/Desktop/memory/
+2. If the tool in the same folder as memory image files, select from the displayed list. if no, type folder that stored Memory Image files or spicify file. 
 
-Step 3 : Once memory image selected, type were volatility is located, 
 Example:
+```
+/home/test/Desktop/memory/
+```
+```
+/home/test/Desktop/memory/memory.img
+```
+
+```
+~/Desktop/memory/
+```
+
+3. Once memory image selected, type were volatility is located, 
+
+Example:
+
+```
 /opt/volatility3.2.5.1/vol.py
+```
 
 ## Recommendtion
 
