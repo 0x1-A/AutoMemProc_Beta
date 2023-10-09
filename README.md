@@ -1,6 +1,5 @@
  # AutoMemProc
-AutoMemProc is a tool designed to simplify and streamline the process of analyzing memory dumps. Its main goal is to act 
-    as an interface for the Volatility framework, enhancing the user experience with automation and user-friendly prompts.
+AutoMemProc is a tool designed to simplify and streamline the process of analyzing memory dumps. Its main goal is to act as an interface for the Volatility framework, enhancing the user experience with automation and user-friendly prompts.
     
 # Key Features:
  - # User-friendly interface: 
@@ -20,4 +19,8 @@ AutoMemProc is a tool designed to simplify and streamline the process of analyzi
  - # Optimized Environment:
    AutoMemProc is optimized for Unix environments, ensuring compatibility and smooth operation on systems like Linux.
 
+# Current Capabilities:
+- Volatility 3 v2.5.1 Plugins
+- Support only, Windowns Memory Images, Typs: .img, .dmp, .raw, .bin, .mem, .dump, .dat, .lime, .crash, .vmem 
+- Processing one memory image. 
 
