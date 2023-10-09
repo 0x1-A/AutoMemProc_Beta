@@ -25,11 +25,18 @@ Optimized Environment:
 
 ## Requirements
 
-1. Volatility 3.2.5.0
+1. Volatility 3.2.5.0 
 2. Powershell.
 3. Symbol Tables for (Offline Analysis). 
 
 ## Volatility 3.2.5.1
+
+How to Install
+
+```shell
+https://github.com/volatilityfoundation/volatility3
+```
+What to Install
 
 ```shell
 https://github.com/volatilityfoundation/volatility3/archive/refs/tags/v2.5.0.tar.gz
