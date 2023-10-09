@@ -26,28 +26,33 @@ Optimized Environment:
 ## Volatility 3.2.5.1
 
 ```shell
-<https://github.com/volatilityfoundation/volatility3/archive/refs/tags/v2.5.0.tar.gz>
+https://github.com/volatilityfoundation/volatility3/archive/refs/tags/v2.5.0.tar.gz
 ```
 
 ## Powershell
 
 ```shell
-<https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.3>
+https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.3
 ```
 
 ## Symbol Tables
 
 ```shell
-<https://downloads.volatilityfoundation.org/volatility3/symbols/windows.zip>
+https://downloads.volatilityfoundation.org/volatility3/symbols/windows.zip
 ```
 The hashes to verify whether any of the symbol pack files have downloaded successfully or have changed can be found at:
 
-<https://downloads.volatilityfoundation.org/volatility3/symbols/SHA256SUMS>  
-<https://downloads.volatilityfoundation.org/volatility3/symbols/SHA1SUMS>  
-<https://downloads.volatilityfoundation.org/volatility3/symbols/MD5SUMS> 
-
+```shell
+https://downloads.volatilityfoundation.org/volatility3/symbols/SHA256SUMS 
+```
+```shell
+https://downloads.volatilityfoundation.org/volatility3/symbols/SHA1SUMS
+```
+```shell
+https://downloads.volatilityfoundation.org/volatility3/symbols/MD5SUMS
+```
 - Symbol tables zip files must be placed, as named, into the `volatility3/symbols` directory (or just the symbols directory next to the executable file).
-
+- 
 - Windows symbols that cannot be found will be queried, downloaded, generated and cached.
 
 - Important: The first run of volatility with new symbol files will require the cache to be updated.  The symbol packs contain a large number of symbol files and so may take some time to update!
