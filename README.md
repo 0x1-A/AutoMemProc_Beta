@@ -25,7 +25,7 @@ Optimized Environment:
 
 ## Requirements
 
-1. Volatility 3.2.5.0 
+1. Volatility 3.2.5.0 (Volatility 3 requires Python 3.7.0 or later.)
 2. Powershell.
 3. Symbol Tables for (Offline Analysis). 
 
