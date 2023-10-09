@@ -23,46 +23,6 @@ Target Audience:
 Optimized Environment:
 - AutoMemProc is optimized for Unix environments, ensuring compatibility and smooth operation on systems like Linux.
 
-## Quick Start
-
-Once the above requriment downloaded and installed, 
-
-1. Tool Execution
-
-   ```shell
-   pwsh automemproc.ps1
-   ```
-
-2. Type Image File Path
-
-   Example:
-
-   ```note
-   /home/test/Desktop/memory/
-   ```
-
-   OR 
-
-   ```note
-   /home/test/Desktop/memory/memory.img
-   ```
-
-   OR 
-
-   ```note
-   ~/Desktop/memory/
-   ```
-
-3) Type Volatility Path
-   
-   Example:
-
-   ```note
-   /opt/volatility3.2.5.1/vol.py
-   ```
-
-... You ready to use the tool. 
-
 ## Recommendtion
 
 - Store automemproc.ps1 in the same folder as the imagefile for quick detection.
