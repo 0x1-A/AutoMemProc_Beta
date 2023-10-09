@@ -75,14 +75,16 @@ pwsh automemproc.ps1
 2. If the tool in the same folder as memory image files, select from the displayed list. if no, type folder that stored Memory Image files or spicify file. 
 
 Example:
-```
+
+```note
 /home/test/Desktop/memory/
 ```
-```
+
+```note
 /home/test/Desktop/memory/memory.img
 ```
 
-```
+```note
 ~/Desktop/memory/
 ```
 
@@ -90,7 +92,7 @@ Example:
 
 Example:
 
-```
+```note
 /opt/volatility3.2.5.1/vol.py
 ```
 
