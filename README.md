@@ -66,35 +66,39 @@ However, this process only needs to be run once on each new symbol file, so assu
 
 Once the above requriment downloaded and installed, 
 
-1) Tool Execution
+1. Tool Execution
 
-```shell
-pwsh automemproc.ps1
-```
+   ```shell
+   pwsh automemproc.ps1
+   ```
 
-2) Image File Path
+2. Image File Path
 
-Example:
+   Example:
 
-```note
-/home/test/Desktop/memory/
-```
+   ```note
+   /home/test/Desktop/memory/
+   ```
 
-```note
-/home/test/Desktop/memory/memory.img
-```
+   OR 
 
-```note
-~/Desktop/memory/
-```
+   ```note
+   /home/test/Desktop/memory/memory.img
+   ```
+
+   OR 
+
+   ```note
+   ~/Desktop/memory/
+   ```
 
 3) Volatility Path
 
-Example:
+   Example:
 
-```note
-/opt/volatility3.2.5.1/vol.py
-```
+   ```note
+   /opt/volatility3.2.5.1/vol.py
+   ```
 
 ## Recommendtion
 
