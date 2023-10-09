@@ -66,13 +66,13 @@ However, this process only needs to be run once on each new symbol file, so assu
 
 Once the above requriment downloaded and installed, 
 
-1. Tool Execution: 
+1) Tool Execution
 
 ```shell
 pwsh automemproc.ps1
 ```
 
-2. If the tool in the same folder as memory image files, select from the displayed list. if no, type folder that stored Memory Image files or spicify file. 
+2) Image File Path
 
 Example:
 
@@ -88,7 +88,7 @@ Example:
 ~/Desktop/memory/
 ```
 
-3. Once memory image selected, type were volatility is located, 
+3) Volatility Path
 
 Example:
 
