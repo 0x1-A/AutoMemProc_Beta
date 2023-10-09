@@ -19,14 +19,14 @@ Optimized Environment:
 
 ## Requirements
 
-1. Volatility 3.2.5.1
+1. Volatility 3.2.5.0
 2. Powershell.
 3. Symbol Tables for (Offline Analysis). 
 
 ## Downloading Volatility
 
 ```shell
-git clone https://github.com/volatilityfoundation/volatility3.git
+https://github.com/volatilityfoundation/volatility3/archive/refs/tags/v2.5.0.tar.gz
 ```
 
 ## Symbol Tables
