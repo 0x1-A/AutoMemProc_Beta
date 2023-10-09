@@ -1,7 +1,6 @@
 # AutoMemProc
 
-AutoMemProc is a tool designed to simplify and streamline the process of analyzing memory dumps. Its main goal is to act 
-  as an interface for the Volatility framework, enhancing the user experience with automation and user-friendly prompts.
+AutoMemProc is a tool designed to simplify and streamline the process of analyzing memory dumps. Its main goal is to act  as an interface for the Volatility 3 framework version 2.5.0, enhancing the user experience with automation and user-friendly prompts.
 
 Key Features:
 - User-friendly interface: AutoMemProc provides clear prompts, asking users to input paths to memory images or choose from 
@@ -21,7 +20,13 @@ Target Audience:
    Educators or students in cybersecurity courses where memory analysis is a topic.
 
 Optimized Environment:
-- AutoMemProc is optimized for Unix environments, ensuring compatibility and smooth operation on systems like Linux.
+- AutoMemProc is optimized for Unix environments and may not function as intended in other operating systems.
+
+## Key Point
+
+- Ensure proper permissions are granted for this tool to execute without errors.
+- The results of the plugins are not displayed directly in the terminal. Instead, they are saved as .txt files in the same directory where the image file is stored.
+- The Process Dump Plugin, create a folder in the same location as the image file to store its outputs.
 
 ## Recommendtion
 
@@ -31,4 +36,5 @@ Optimized Environment:
 
 For information or requests, contact:
 
+Issue/Support: 
 Twitter: @atiahlaoufi
