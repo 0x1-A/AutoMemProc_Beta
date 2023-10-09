@@ -71,6 +71,7 @@ Step 1 : Tool Execution:
 ```shell
 pwsh automemproc.ps1
 ```
+
 Step 2 : If the tool in the same folder as memory image files, select from the displayed list. if no, type folder that stored Memory Image files or spicify file. 
 Example:
 /home/test/Desktop/memory/
