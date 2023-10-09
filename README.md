@@ -1,6 +1,6 @@
 # AutoMemProc
 
-- AutoMemProc is a tool designed to simplify and streamline the process of analyzing memory dumps. Its main goal is to act 
+AutoMemProc is a tool designed to simplify and streamline the process of analyzing memory dumps. Its main goal is to act 
   as an interface for the Volatility framework, enhancing the user experience with automation and user-friendly prompts.
 
 Key Features:
@@ -79,7 +79,7 @@ Once the above requriment downloaded and installed,
    pwsh automemproc.ps1
    ```
 
-2. Image File Path
+2. Type Image File Path
 
    Example:
 
@@ -99,13 +99,15 @@ Once the above requriment downloaded and installed,
    ~/Desktop/memory/
    ```
 
-3) Volatility Path
-
+3) Type Volatility Path
+   
    Example:
 
    ```note
    /opt/volatility3.2.5.1/vol.py
    ```
+
+... You ready to use the tool. 
 
 ## Recommendtion
 
