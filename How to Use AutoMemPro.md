@@ -41,7 +41,8 @@
 
 **Commands** 
 
-[timeline] Executes the Timeline plugin, provides a timeline of events."
+  - [timeline]
+    - Executes the Timeline plugin, provides a timeline of events."
 [dump -p]  Dump a process along with its associated content using the 'dumpfile' plugin."
 
 **Background Jobs**
