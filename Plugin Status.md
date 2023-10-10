@@ -62,17 +62,17 @@
 
   - Crash Dumps, Hibernation, and Conversion
 
-   - windows.crashinfo.Crashinfo - Lists information from a Windows crash dump.
-   - windows.cachedump.Cachedump - Extracts cached credentials.
+    - windows.crashinfo.Crashinfo - Lists information from a Windows crash dump.
+    - windows.cachedump.Cachedump - Extracts cached credentials.
 
   - File System
 
-   - windows.mftscan.MFTScan     - Scans for MFT FILE objects.
-   - windows.mbrscan.MBRScan     - Scans for and parses Master Boot Records (MBRs).
+    - windows.mftscan.MFTScan     - Scans for MFT FILE objects.
+    - windows.mbrscan.MBRScan     - Scans for and parses Master Boot Records (MBRs).
 
   - Miscellaneous
 
-   - windows.dumpfiles.DumpFiles - Dumps cached file contents.
-   - timeliner.Timeliner         - Lists time-related information ordered by time.
-   - windows.bigpools.BigPools   - Lists big page pools.
-   - windows.poolscanner.PoolScanner - A generic pool scanner plugin.
+    - windows.dumpfiles.DumpFiles - Dumps cached file contents.
+    - timeliner.Timeliner         - Lists time-related information ordered by time.
+    - windows.bigpools.BigPools   - Lists big page pools.
+    - windows.poolscanner.PoolScanner - A generic pool scanner plugin.
