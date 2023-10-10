@@ -8,7 +8,7 @@
    pwsh automemproc.ps1
    ```
 
-2. Type Image File Path
+2. Type Image File Path (You dont need to do this step if Tool & ImageFile in the same folder)
 
    Example:
 
@@ -36,7 +36,7 @@
    /opt/volatility3.2.5.1/vol.py
    ```
 
-... Just pick a number from displayed list and follow the prompt ;)"
+... Just pick a number from displayed list and follow the prompt ;)
 
 ## Extra 
 
