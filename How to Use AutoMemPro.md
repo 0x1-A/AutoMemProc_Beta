@@ -36,23 +36,15 @@
    /opt/volatility3.2.5.1/vol.py
    ```
 
-... You ready to use the tool. 
 
+... Just pick a number from displayed list and follow the prompt ;)"
 
+## Extra 
 
-    Write-Host "... Just pick a number from displayed list and follow the prompt ;)"
-    Write-Host ""
-    
-Write-Host "Commands:" -ForegroundColor Darkyellow
-Write-Host ""
+Commands:  
 
-Write-Host "1} Plugins" -ForegroundColor Darkyellow
-Write-Host "- " -NoNewline
-Write-Host "[timeline]" -ForegroundColor yellow -NoNewline
-Write-Host " Executes the Timeline plugin, provides a timeline of events."
-Write-Host "- " -NoNewline
-Write-Host "[dump -p]" -ForegroundColor yellow -NoNewline
-Write-Host " Dump a process along with its associated content using the 'dumpfile' plugin."
+[timeline] Executes the Timeline plugin, provides a timeline of events."
+[dump -p]  Dump a process along with its associated content using the 'dumpfile' plugin."
 Write-Host ""
 Write-Host "2} Background Jobs" -ForegroundColor Darkyellow
 Write-Host "- " -NoNewline
