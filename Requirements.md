@@ -1,6 +1,6 @@
 ## Requirements
 
-1. Unix Environment.
+1. Unix Environment (Linux, ubuntu ..etc).
 2. Powershell.
 3. Volatility 3.2.5.0 (Volatility 3 requires Python 3.7.0 or later).
 4. Symbol Tables for (Offline Analysis). 
