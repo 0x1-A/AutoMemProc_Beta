@@ -27,74 +27,59 @@
    | windows.joblinks.JobLinks  | Print process job link information.  |
 
   - Process Memory
-
-    - windows.memmap.Memmap
-      - Prints the memory map.
-    - windows.vadinfo.VadInfo
-      - Lists process memory ranges.
-    - windows.virtmap.VirtMap
-      - Lists virtual mapped sections.
-    - windows.vadwalk.VadWalk
-      - Walks the VAD tree.
+    
+   | Plugins  | Description |
+   | ------------- | ------------- |
+   | windows.memmap.Memmap  | Prints the memory map..  |
+   | windows.vadinfo.VadInfo  | Lists process memory ranges.  |
+   | windows.virtmap.VirtMap  | Lists virtual mapped sections.  |
+   | windows.vadwalk.VadWalk  | Walks the VAD tree. |
 
   - Networking
-
-    - windows.netscan.NetScan
-      - Scans for network objects in a memory image.
-    - windows.netstat.NetStat
-      - Traverses network tracking structures.
+    
+   | Plugins  | Description |
+   | ------------- | ------------- |
+   | windows.netscan.NetScan  | Scans for network objects in a memory image.  |
+   | windows.netstat.NetStat  | Traverses network tracking structures.  |
 
   - Kernal Memory and Object
-
-    - windows.ldrmodules.LdrModules
-      - Lists loaded modules in a memory image.
-    - windows.modscan.ModScan
-      - Scans for modules in a memory image.
-    - windows.modules.Modules
-      - Lists the loaded kernel modules.
-    - windows.driverscan.DriverScan
-      - Scans for drivers present in a memory image.
-    - windows.driverirp.DriverIrp
-      - Lists IRPs for drivers in a memory image.
-    - windows.filescan.FileScan
-      - Scans for file objects present in a memory image.
-    - windows.symlinkscan.SymlinkScan
-      - Scans for links in a memory image.
-    - windows.mutantscan.MutantScan
-      - Scans for mutexes in a memory image.
-    - windows.callbacks.Callbacks
-      - Lists kernel callbacks and notification routines.
-    - windows.ssdt.SSDT
-      - Lists the system call table.
-    - windows.devicetree.DeviceTree
-      - Listing tree based on drivers and devices.
+    
+   | Plugins  | Description |
+   | ------------- | ------------- |
+   | windows.ldrmodules.LdrModules  | Lists loaded modules in a memory image.  |
+   | windows.modscan.ModScan  | Scans for modules in a memory image.  |
+   | windows.modules.Modules | Lists the loaded kernel modules.  |
+   | windows.driverscan.DriverScan  | Scans for drivers present in a memory image.  |
+   | windows.driverirp.DriverIrp  | Lists IRPs for drivers in a memory image..  |
+   | windows.filescan.FileScan  | Scans for file objects present in a memory image.  |
+   | windows.symlinkscan.SymlinkScan  | Scans for links in a memory image.  |
+   | windows.mutantscan.MutantScan  | Scans for mutexes in a memory image.  |
+   | windows.callbacks.Callbacks  | Lists kernel callbacks and notification routines.  |
+   | windows.ssdt.SSDT  | Lists the system call table.  |
+   | windows.devicetree.DeviceTree  | Listing tree based on drivers and devices.  |
 
   - Registry
-
-    - windows.registry.hivescan.HiveScan
-      - Scans for registry hives in a memory image.
-    - windows.registry.hivelist.HiveList
-      - Lists registry hives in a memory image.
-    - windows.registry.printkey.PrintKey
-      - Lists registry keys under a hive/key value.
-    - windows.registry.certificates.Certificates
-      - Lists certificates in registry's Certificate Store.
-    - windows.getservicesids.GetServiceSIDs
-      - Lists process token SIDs.
-    - windows.registry.userassist.UserAssist
-      - Print userassist registry keys and information.
-    - windows.hashdump.Hashdump
-      - Dumps user hashes from memory.
-    - windows.lsadump.Lsadump
-      - Dumps LSA secrets from memory.
-
-
+    
+   | Plugins  | Description |
+   | ------------- | ------------- |
+   | windows.registry.hivescan.HiveScan  | Scans for registry hives in a memory image.  |
+   | windows.registry.hivelist.HiveList  | Lists registry hives in a memory image.  |
+   | windows.registry.printkey.PrintKey | Lists registry keys under a hive/key value.  |
+   | windows.registry.certificates.Certificates  | Lists certificates in registry's Certificate Store.  |
+   | windows.getservicesids.GetServiceSIDs  | Lists process token SIDs.  |
+   | windows.registry.userassist.UserAssist  | Print userassist registry keys and information.  |
+   | windows.hashdump.Hashdump  | Dumps user hashes from memory.  |
+   | windows.lsadump.Lsadump  | Dumps LSA secrets from memory.  |
+   | windows.callbacks.Callbacks  | Lists kernel callbacks and notification routines.  |
+   | windows.ssdt.SSDT  | Lists the system call table.  |
+   | windows.devicetree.DeviceTree  | Listing tree based on drivers and devices.  |
+  
   - Crash Dumps, Hibernation, and Conversion
-
-    - windows.crashinfo.Crashinfo
-      - Lists information from a Windows crash dump.
-    - windows.cachedump.Cachedump
-      - Extracts cached credentials.
+    
+   | Plugins  | Description |
+   | ------------- | ------------- |
+   | windows.crashinfo.Crashinfo  | Lists information from a Windows crash dump.  |
+   | windows.cachedump.Cachedump | Extracts cached credentials.  |
 
   - File System
 
