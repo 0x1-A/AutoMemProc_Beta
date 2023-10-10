@@ -2,8 +2,8 @@
 
   - Image Identification
 
-    | Plugin | Description |
-    | windows.info.Info | Show OS & kernel details of the memory sample being analyzed |
+| Plugin | Description |
+| windows.info.Info | Show OS & kernel details of the memory sample being analyzed |
     
     - windows.info.Info
       - Show OS & kernel details of the memory sample being analyzed
