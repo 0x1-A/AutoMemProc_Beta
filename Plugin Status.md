@@ -1,7 +1,7 @@
 ## PLUGIN STATUS
 
   - Image Identification
-     -  [DONE]    windows.info.Info           - Show OS & kernel details of the memory sample being analyzed.
+     -  [DONE]    windows.info.Info           { Show OS & kernel details of the memory sample being analyzed}
 
   - Processes and DLLs
 
