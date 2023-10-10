@@ -1,13 +1,7 @@
 ## PLUGIN STATUS
 
-| Image Identification   |    Processes and DLLs          |
-| ------------- | ------------- |
-| windows.info.Info  | Content Cell  |
-|   | Content Cell  |
-
   - Image Identification
-
-    [DONE]    windows.info.Info           - Show OS & kernel details of the memory sample being analyzed.
+     -  [DONE]    windows.info.Info           - Show OS & kernel details of the memory sample being analyzed.
 
   - Processes and DLLs
 
