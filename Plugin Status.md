@@ -1,7 +1,7 @@
 ## PLUGIN STATUS
 
   - Image Identification
-
+| Image Identification |
 | Plugin  | Info |
 | ------------- | ------------- |
 | windows.info.Info  | Show OS & kernel details of the memory sample being analyzed  |
