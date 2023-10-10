@@ -11,11 +11,18 @@
    | Plugins  | Description |
    | ------------- | ------------- |
    | windows.psscan.PsScan  | Scans for processes in a memory image.  |
+   | windows.pslist.PsList  | Lists processes in a memory image.  |
+   | windows.pstree.PsTree  | Lists processes in a tree based on parent PID.  |
+   | windows.psscan.PsScan  | Scans for processes in a memory image.  |
+   | windows.psscan.PsScan  | Scans for processes in a memory image.  |
+   | windows.psscan.PsScan  | Scans for processes in a memory image.  |
+   | windows.psscan.PsScan  | Scans for processes in a memory image.  |
+  
 
-    - windows.pslist.PsList
-      - Lists processes in a memory image.
-    - windows.pstree.PsTree
-      - Lists processes in a tree based on parent PID.
+    - 
+      - 
+    - 
+      - 
     - windows.cmdline.CmdLine
       - Lists process command line arguments.
     - windows.dlllist.DllList
