@@ -2,7 +2,7 @@
 
 - Image Identification
 
-   | windows.info.Info  | Second Header |
+   | Plugins  | Description |
    | ------------- | ------------- |
    | windows.info.Info  | Show OS & kernel details of the memory sample being analyzed  |
     
