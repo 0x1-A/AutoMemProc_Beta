@@ -37,24 +37,11 @@
 
 ... Just pick a number from displayed list and follow the prompt ;)
 
-## Extra 
+## Features 
 
 **Commands** 
 
-These can be executed in the Plugin Categories Main;
-
-  - [timeline]
-    - Executes the Timeline plugin, provides a timeline of events."
-  - [dump -p]
-    - Dump a process along with its associated content using the 'dumpfile' plugin."
-  - [job -s]
-    - List Plugins with Background Job feature."
-  - [job -all]
-    - Check the status of background jobs initiated by this tool."
-  - [job -r]
-    - Remove background jobs initiated by this tool."
-
-Unversial Command; 
+- Unversial Command; 
 
   - [help]
      - Help Message
@@ -66,6 +53,19 @@ Unversial Command;
      - Clear the terminal."
   - [back]
      - To return to previous list"
+       
+- These can be executed in the Plugin Categories Main;
+
+  - [timeline]
+    - Executes the Timeline plugin, provides a timeline of events."
+  - [dump -p]
+    - Dump a process along with its associated content using the 'dumpfile' plugin."
+  - [job -s]
+    - List Plugins with Background Job feature."
+  - [job -all]
+    - Check the status of background jobs initiated by this tool."
+  - [job -r]
+    - Remove background jobs initiated by this tool."
 
 ## Notes
 - Please ensure you do not exit the tool until your job completes, as exiting while a job is active will terminate the job."
