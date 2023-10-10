@@ -2,9 +2,9 @@
 
 - Image Identification
 
-| windows.info.Info  | Second Header |
-| ------------- | ------------- |
-| windows.info.Info  | Show OS & kernel details of the memory sample being analyzed  |
+   | windows.info.Info  | Second Header |
+   | ------------- | ------------- |
+   | windows.info.Info  | Show OS & kernel details of the memory sample being analyzed  |
     
     - windows.info.Info
       - Show OS & kernel details of the memory sample being analyzed
