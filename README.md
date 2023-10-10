@@ -2,6 +2,10 @@
 
 AutoMemProc is a tool designed to simplify and streamline the process of analyzing memory dumps. Its main goal is to act  as an interface for the Volatility 3 framework version 2.5.0, enhancing the user experience with automation and user-friendly prompts.
 
+## Target Audience
+Digital forensics professionals or researchers who often analyze memory dumps. Incident responders looking to quickly triage potentially compromised systems.
+Educators or students in cybersecurity courses where memory analysis is a topic.
+   
 ## Key Features
 
 **User-friendly interface**: AutoMemProc is designed with users in mind. Its straightforward design ensures even those unfamiliar with memory forensic tools can navigate with ease. Key features include:
@@ -38,14 +42,6 @@ AutoMemProc is a tool designed to simplify and streamline the process of analyzi
 
 This feature underscores AutoMemProc's commitment to catering to both beginners, who might prefer a structured interface, and advanced users, who might need the flexibility and power of direct CLI access.
 
-**Target Audience**:
- - Digital forensics professionals or researchers who often analyze memory dumps.
-   Incident responders looking to quickly triage potentially compromised systems.
-   Educators or students in cybersecurity courses where memory analysis is a topic.
-
-**Optimized Environment**:
-- AutoMemProc is optimized for Unix environments and may not function as intended in other operating systems.
-
 ## Key Point
 
 - Ensure proper permissions are granted for this tool to execute without errors.
@@ -59,9 +55,13 @@ This feature underscores AutoMemProc's commitment to catering to both beginners,
   ps -ef
   ```
 
+## Optimized Environment
+AutoMemProc is optimized for Unix environments and may not function as intended in other operating systems.
+
 ## Recommendtion
 
 - Store automemproc.ps1 in the same folder as the imagefile for quick detection.
+
 
 ## Contact
 
