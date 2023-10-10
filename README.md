@@ -2,8 +2,6 @@
 
 AutoMemProc is a tool designed to simplify and streamline the process of analyzing memory dumps. Its main goal is to act  as an interface for the Volatility 3 framework version 2.5.0, enhancing the user experience with automation and user-friendly prompts.
 
-Certainly! Here's a more detailed breakdown:
-
 **User-friendly interface**: AutoMemProc is designed with users in mind. Its straightforward design ensures even those unfamiliar with memory forensic tools can navigate with ease. Key features include:
 - **Path Input**: Users can directly specify paths to memory images without navigating through complex file hierarchies.
 - **Image Selection**: The tool intelligently detects and lists all available memory images from a specified directory, offering users a simple choice rather than manual file input.
@@ -29,6 +27,14 @@ Certainly! Here's a more detailed breakdown:
 **Background Job**: 
 - To ensure that users don't experience lags or freezes, certain tasks within AutoMemProc are designed to run as background jobs.
 - This allows for tasks like large memory image analyses to operate in parallel, ensuring the main application remains responsive at all times.
+
+**Custom Volatility CLI Access**:
+- **Seamless Transition to CLI**: AutoMemProc is not just about providing a simplified interface. Recognizing the needs of advanced users or those with specific requirements, the tool offers direct access to the Volatility command-line interface (CLI).
+- **Pre-populated Commands**: To save users time and reduce redundant typing, when users enter the CLI section, the tool already includes the paths to the Volatility tool and the chosen memory image in the command prompt. This allows for quicker command input and execution.
+- **Flexible Command Execution**: Users can run any command or use any plugin available in Volatility, extending the tool's functionality beyond the pre-defined menu options in AutoMemProc.
+- **Exit Option**: For ease of navigation, users can simply type 'exit' to return to the main menu, ensuring they are not stuck in the command-line interface and can easily transition back to the guided interface.
+
+This feature underscores AutoMemProc's commitment to catering to both beginners, who might prefer a structured interface, and advanced users, who might need the flexibility and power of direct CLI access.
 
 **Target Audience**:
  - Digital forensics professionals or researchers who often analyze memory dumps.
