@@ -5,6 +5,15 @@
 3. Volatility 3.2.5.0 (Volatility 3 requires Python 3.7.0 or later).
 4. Symbol Tables for (Offline Analysis). 
 
+## Linux & ubuntu
+
+- Linux :
+  
+```shell
+https://learn.microsoft.com/en-us/linux/install
+```
+
+
 ## Powershell
 
 ```shell
