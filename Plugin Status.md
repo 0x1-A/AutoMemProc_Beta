@@ -1,6 +1,7 @@
 ## PLUGIN STATUS
 
   - Image Identification
+  - 
 | Image Identification |
 | Plugin  | Info |
 | ------------- | ------------- |
