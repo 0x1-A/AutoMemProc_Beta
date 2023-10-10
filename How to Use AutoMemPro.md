@@ -68,7 +68,10 @@ Unversial Command;
      - To return to previous list"
 
 ## Notes
-    - Please ensure you do not exit the tool until your job completes, as exiting while a job is active will terminate the job."
-    - For a background job running status using Linux terminal, you can identify it using the 'ps -ef'"
-   
+- Please ensure you do not exit the tool until your job completes, as exiting while a job is active will terminate the job."
+- For a background job running status using Linux terminal,
+ ``` shell
+  ps -ef
+  ```
+  
   **We hope this tool simplifies your memory analysis process. Please enjoy using the tool, and do let us know if you have any suggestions**
