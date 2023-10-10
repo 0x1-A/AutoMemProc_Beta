@@ -41,7 +41,7 @@
 
 **Commands** 
 
-These can be executed in the Plugin Plugin Categories Main;
+These can be executed in the Plugin Categories Main;
 
   - [timeline]
     - Executes the Timeline plugin, provides a timeline of events."
