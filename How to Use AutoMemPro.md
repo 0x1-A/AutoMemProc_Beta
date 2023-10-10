@@ -2,9 +2,8 @@ How to used AutoMemProc? in 3 step .. After the tool executed
 
 1. Tool Execution
 
-   ```shell
-   pwsh automemproc.ps1
-   ```
+   **pwsh automemproc.ps1**
+ 
 
 2. Type Image File Path
 
