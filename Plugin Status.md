@@ -4,22 +4,21 @@
     - windows.info.Info           - Show OS & kernel details of the memory sample being analyzed
 
   - Processes and DLLs
-
-    [DONE]    windows.psscan.PsScan       - Scans for processes in a memory image.
-    [DONE]    windows.pslist.PsList       - Lists processes in a memory image.
-    [DONE]    windows.pstree.PsTree       - Lists processes in a tree based on parent PID.
-    [DONE]    windows.cmdline.CmdLine     - Lists process command line arguments.
-    [DONE]    windows.dlllist.DllList     - Lists loaded modules in a memory image.
-    [DONE]    windows.getsids.GetSIDs     - Lists loaded modules in a memory image.
-    [DONE]    windows.privileges.Privs    - Lists process token privileges.
-    [DONE]    windows.handles.Handles     - Displays handles opened by processes.
-    [DONE]    windows.verinfo.VerInfo     - Lists PE files version information.
-    [DONE]    windows.envars.Envars       - Display process environment variables.
-    [DONE]    windows.malfind.Malfind     - Lists process memory ranges with potential injected code.
-    [DONE]    windows.skeleton_key_check.Skeleton_Key_Check - Looks for Skeleton Key malware signs.
-    [DONE]    windows.svcscan.SvcScan     - Scans for windows services.
-    [DONE]    windows.sessions.Sessions   - Lists Processes with Session information.
-    [DONE]    windows.joblinks.JobLinks   - Print process job link information.
+    - windows.psscan.PsScan       - Scans for processes in a memory image.
+    - windows.pslist.PsList       - Lists processes in a memory image.
+    - windows.pstree.PsTree       - Lists processes in a tree based on parent PID.
+    - windows.cmdline.CmdLine     - Lists process command line arguments.
+    - windows.dlllist.DllList     - Lists loaded modules in a memory image.
+    - windows.getsids.GetSIDs     - Lists loaded modules in a memory image.
+    - windows.privileges.Privs    - Lists process token privileges.
+    - windows.handles.Handles     - Displays handles opened by processes.
+    - windows.verinfo.VerInfo     - Lists PE files version information.
+    - windows.envars.Envars       - Display process environment variables.
+    - windows.malfind.Malfind     - Lists process memory ranges with potential injected code.
+    - windows.skeleton_key_check.Skeleton_Key_Check - Looks for Skeleton Key malware signs.
+    - windows.svcscan.SvcScan     - Scans for windows services.
+    - windows.sessions.Sessions   - Lists Processes with Session information.
+    - windows.joblinks.JobLinks   - Print process job link information.
 
   - Process Memory
 
