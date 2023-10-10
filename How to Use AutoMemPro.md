@@ -69,7 +69,7 @@ Unversial Command;
 
 ## Notes
 - Please ensure you do not exit the tool until your job completes, as exiting while a job is active will terminate the job."
-- For a background job running status using Linux terminal,
+- For a background job running status using  terminal,
  ``` shell
   ps -ef
   ```
