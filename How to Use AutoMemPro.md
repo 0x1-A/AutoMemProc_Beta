@@ -1,14 +1,13 @@
-**How to used AutoMemProc?** in 3 steps .. 
+## How to used AutoMemProc? in 3 steps .. 
 
- 
 
-1. Tool Execution
+**Tool Execution**
 
    ```shell
    pwsh automemproc.ps1
    ```
 
-2. Type Image File Path (You dont need to do this step if Tool & ImageFile in the same folder)
+**Type Image File Path** (You dont need to do this step if Tool & ImageFile in the same folder)
 
    Example:
 
@@ -28,7 +27,7 @@
    ~/Desktop/memory/
    ```
 
-3) Type Volatility Path
+**Type Volatility Path** (After entering the path, select 'y' to save it in a '.txt' file. This ensures you won't need to re-enter the path in future uses.)
    
    Example:
 
