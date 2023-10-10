@@ -55,13 +55,17 @@ This feature underscores AutoMemProc's commitment to catering to both beginners,
   ps -ef
   ```
 
-## Optimized Environment
-AutoMemProc is optimized for Unix environments and may not function as intended in other operating systems.
+## Capabilities
+
+**Unix-Centric Design** 
+- AutoMemProc is purpose-built for Unix-based systems. This includes popular Linux distributions such as Ubuntu, CentOS, and Fedora, as well as BSD variants and macOS. Its underlying structure and functionalities are optimized for the Unix environment.
+
+**Windows Memory Image Analysis**
+- While the tool operates within a Unix environment, it specializes in analyzing memory images from Windows systems. This dual compatibility makes it versatile for forensic analyses, especially when Windows systems are the subjects of investigation but the analysis is carried out on Unix platforms.
 
 ## Recommendtion
 
 - Store automemproc.ps1 in the same folder as the imagefile for quick detection.
-
 
 ## Contact
 
