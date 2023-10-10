@@ -1,10 +1,12 @@
 **How to used AutoMemProc?** in 3 steps .. 
 
+ 
+
 1. Tool Execution
-   
-   ```note
+
+   ```shell
    pwsh automemproc.ps1
-  ```
+   ```
 
 2. Type Image File Path
 
@@ -35,6 +37,7 @@
    ```
 
 ... You ready to use the tool. 
+
 
 
     Write-Host "... Just pick a number from displayed list and follow the prompt ;)"
