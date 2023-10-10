@@ -68,7 +68,7 @@ This feature underscores AutoMemProc's commitment to catering to both beginners,
 
 ## Recommendtion
 
-- Store automemproc.ps1 in the same folder as the imagefile for more faster file selection.
+- Store automemproc.ps1 in the same folder as the imagefile for faster file selection.
 
 ## Contact
 
