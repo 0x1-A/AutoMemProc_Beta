@@ -63,6 +63,9 @@ This feature underscores AutoMemProc's commitment to catering to both beginners,
 **Windows Memory Image Analysis**
 - While the tool operates within a Unix environment, it specializes in analyzing memory images from Windows systems. This dual compatibility makes it versatile for forensic analyses, especially when Windows systems are the subjects of investigation but the analysis is carried out on Unix platforms.
 
+**Single Memory Image**
+- The tool is designed to process a single selection of a Windows memory image at a time, ensuring a focused and thorough analysis for each chosen memory image.
+
 ## Recommendtion
 
 - Store automemproc.ps1 in the same folder as the imagefile for quick detection.
