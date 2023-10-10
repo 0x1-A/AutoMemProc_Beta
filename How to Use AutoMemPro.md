@@ -7,7 +7,7 @@
    pwsh automemproc.ps1
    ```
 
-**2.Type Image File Path** (You dont need to do this step if Tool & ImageFile in the same folder)
+**2.Type Image File/folder Path** (You dont need to do this step if Tool & ImageFile in the same folder)
 
    Example:
 
