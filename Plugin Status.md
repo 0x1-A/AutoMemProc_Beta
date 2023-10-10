@@ -6,13 +6,12 @@
    | ------------- | ------------- |
    | windows.info.Info  | Show OS & kernel details of the memory sample being analyzed  |
     
-    - windows.info.Info
-      - Show OS & kernel details of the memory sample being analyzed
-
-  - Processes and DLLs
+- Processes and DLLs
     
-    - windows.psscan.PsScan
-      - Scans for processes in a memory image.
+   | Plugins  | Description |
+   | ------------- | ------------- |
+   | windows.psscan.PsScan  | Scans for processes in a memory image.  |
+
     - windows.pslist.PsList
       - Lists processes in a memory image.
     - windows.pstree.PsTree
