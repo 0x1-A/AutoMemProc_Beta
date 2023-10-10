@@ -2,28 +2,40 @@
 
 AutoMemProc is a tool designed to simplify and streamline the process of analyzing memory dumps. Its main goal is to act  as an interface for the Volatility 3 framework version 2.5.0, enhancing the user experience with automation and user-friendly prompts.
 
-Key Features:
-- User-friendly interface: AutoMemProc features an intuitive design, guiding users through each step with clear prompts. Users can:
-  - Easily input paths to memory images.
-  - Choose from a list of detected existing images.
-  - Input specific numbers associated with menu options for swift navigation.
-  - Use straightforward commands to initiate different functions, ensuring a hassle-free experience even for first-time users.
-- Automatic Image Detection: Upon providing a directory, the tool lists all memory image files present, allowing users to 
-  easily select the image they wish to analyze.
-- Saved Paths: The tool has the capability to remember certain paths, such as the path to the Volatility executable, to 
-  speed up repeated analyses.
-- Plugin Interface: Once an image is chosen, the tool provides a menu system, letting users select and run various - 
-  Volatility plugins directly from the interface.
-- Error Handling: AutoMemProc contains checks to handle errors gracefully, such as empty paths or invalid inputs, and guide 
-  users in correcting them.
-- Background Job: allowing tasks to run in parallel without blocking the main application flow.
+Certainly! Here's a more detailed breakdown:
 
-Target Audience:
+**User-friendly interface**: AutoMemProc is designed with users in mind. Its straightforward design ensures even those unfamiliar with memory forensic tools can navigate with ease. Key features include:
+- **Path Input**: Users can directly specify paths to memory images without navigating through complex file hierarchies.
+- **Image Selection**: The tool intelligently detects and lists all available memory images from a specified directory, offering users a simple choice rather than manual file input.
+- **Numbered Options**: To simplify choices, menu options are associated with specific numbers, allowing for fast and mistake-free navigation.
+- **Command Simplicity**: All commands in AutoMemProc are optimized for clarity, ensuring users don't need extensive documentation to operate the tool.
+
+**Automatic Image Detection**: 
+- The tool automatically scans and detects all memory image files in the provided directory.
+- It then displays them in an easy-to-read list format, eliminating the need to remember exact file names.
+
+**Saved Paths**:
+- For enhanced efficiency, AutoMemProc remembers crucial paths. 
+- For instance, once the path to the Volatility executable is set, the tool recalls it for future sessions, reducing repetitive setup time.
+
+**Plugin Interface**: 
+- AutoMemProc seamlessly integrates with Volatility.
+- After selecting an image, the tool transitions users to a menu dedicated to Volatility plugins. Here, they can pick and execute plugins directly without needing separate command-line inputs.
+
+**Error Handling**: 
+- Recognizing that everyone can make mistakes, AutoMemProc is built to handle errors gracefully.
+- Whether it's an empty path, an incorrect file format, or any other input error, the tool provides clear feedback and guides users on how to correct the issue.
+
+**Background Job**: 
+- To ensure that users don't experience lags or freezes, certain tasks within AutoMemProc are designed to run as background jobs.
+- This allows for tasks like large memory image analyses to operate in parallel, ensuring the main application remains responsive at all times.
+
+**Target Audience**:
  - Digital forensics professionals or researchers who often analyze memory dumps.
    Incident responders looking to quickly triage potentially compromised systems.
    Educators or students in cybersecurity courses where memory analysis is a topic.
 
-Optimized Environment:
+**Optimized Environment**:
 - AutoMemProc is optimized for Unix environments and may not function as intended in other operating systems.
 
 ## Key Point
