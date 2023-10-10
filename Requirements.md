@@ -3,7 +3,8 @@
 1. Unix Environment (Linux, ubuntu ..etc).
 2. Powershell.
 3. Volatility 3.2.5.0 (Volatility 3 requires Python 3.7.0 or later).
-4. Symbol Tables for (Offline Analysis). 
+4. Symbol Tables for (Offline Analysis).
+5. AutoMemProc
 
 ## Linux & ubuntu
 
@@ -54,6 +55,12 @@ https://downloads.volatilityfoundation.org/volatility3/symbols/SHA1SUMS
 ```shell
 https://downloads.volatilityfoundation.org/volatility3/symbols/MD5SUMS
 ```
+
+## AutoMemProc
+```shell
+git clone https://github.com/0x1-A/AutoMemProc.git
+```
+
 - Symbol tables zip files must be placed, as named, into the `volatility3/symbols` directory (or just the symbols directory next to the executable file).
 - Windows symbols that cannot be found will be queried, downloaded, generated and cached.
 - Important: The first run of volatility with new symbol files will require the cache to be updated.  The symbol packs contain a large number of symbol files and so may take some time to update!
