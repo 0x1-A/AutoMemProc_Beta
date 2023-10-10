@@ -13,6 +13,11 @@
 https://learn.microsoft.com/en-us/linux/install
 ```
 
+- ubuntu :
+  
+```shell
+https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview
+```
 
 ## Powershell
 
