@@ -1,6 +1,6 @@
 ## PLUGIN STATUS
 
-  - Image Identification
+- Image Identification
 
 | windows.info.Info  | Second Header |
 | ------------- | ------------- |
