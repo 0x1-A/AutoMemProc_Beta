@@ -13,24 +13,12 @@
    | windows.psscan.PsScan  | Scans for processes in a memory image.  |
    | windows.pslist.PsList  | Lists processes in a memory image.  |
    | windows.pstree.PsTree  | Lists processes in a tree based on parent PID.  |
-   | windows.psscan.PsScan  | Scans for processes in a memory image.  |
-   | windows.psscan.PsScan  | Scans for processes in a memory image.  |
-   | windows.psscan.PsScan  | Scans for processes in a memory image.  |
-   | windows.psscan.PsScan  | Scans for processes in a memory image.  |
+   | windows.cmdline.CmdLine  | Lists process command line arguments.  |
+   | windows.dlllist.DllList  | Lists loaded modules in a memory image.  |
+   | windows.getsids.GetSIDs  | Lists loaded modules in a memory image.  |
+   | windows.privileges.Privs  | Lists process token privileges.  |
   
 
-    - 
-      - 
-    - 
-      - 
-    - windows.cmdline.CmdLine
-      - Lists process command line arguments.
-    - windows.dlllist.DllList
-      - Lists loaded modules in a memory image.
-    - windows.getsids.GetSIDs
-      - Lists loaded modules in a memory image.
-    - windows.privileges.Privs
-      - Lists process token privileges.
     - windows.handles.Handles
       - Displays handles opened by processes.
     - windows.verinfo.VerInfo
