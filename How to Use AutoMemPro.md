@@ -1,11 +1,12 @@
 **How to used AutoMemProc?** in 3 steps .. 
 
-1. Tool Execution ->
+1. Tool Execution
+   
    ```note
    pwsh automemproc.ps1
   ```
 
-3. Type Image File Path
+2. Type Image File Path
 
    Example:
 
