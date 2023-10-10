@@ -74,5 +74,7 @@ This feature underscores AutoMemProc's commitment to catering to both beginners,
 
 For information or requests, contact:
 
-Issue/Support: 
+Issue/Support: https://github.com/0x1-A/AutoMemProc-Beta/issues
+Discussion: https://github.com/0x1-A/AutoMemProc-Beta/discussions/2
+Ideas: https://github.com/0x1-A/AutoMemProc-Beta/discussions/categories/ideas
 Twitter: @atiahlaoufi
