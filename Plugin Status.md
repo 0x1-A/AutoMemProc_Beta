@@ -4,7 +4,6 @@
     | Plugins  | Description |
 | ------------- | ------------- |
 | windows.info.Info  | Show OS & kernel details of the memory sample being analyzed  |
-| Content Cell  | Content Cell  |
     
     - windows.info.Info
       - Show OS & kernel details of the memory sample being analyzed
