@@ -79,10 +79,8 @@ cd volatility3-2.5.0
 sudo pip3 install -r requirements.txt
   ```
 
-After the installtion the only error you should see by running the below command **volatility: error: Please select a plugin to run**
-
  ``` shell
-python3 vol.py -vv
+python3 vol.py -h
   ```
 
 # AutoMemProc
