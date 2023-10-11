@@ -29,7 +29,7 @@ sudo snap install powershell --classic
 
 ## Python
 
-**Check Python3 if it's installed** 
+**Check Python3 Availability**
 
  ``` shell
 python3 --version
