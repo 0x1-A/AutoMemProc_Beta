@@ -6,9 +6,14 @@
 
 ## Utilities
 
-**git**
+**tar**
  ``` shell
-sudo apt install git
+sudo apt install tar
+  ```
+
+**wget**
+ ``` shell
+sudo apt install wget
   ```
 
 **pip**
@@ -59,17 +64,20 @@ sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-
 **Votaility 3**
 
  ``` shell
-git clone https://github.com/volatilityfoundation/volatility3.git
+sudo wget https://github.com/volatilityfoundation/volatility3/archive/refs/tags/v2.5.0.tar.gz
   ```
 
  ``` shell
-cd votaility3
+sudo tar -xzvf v2.5.0.tar.gz
   ```
 
  ``` shell
-pip3 install -r requirements.txt
+cd volatility3-2.5.0
   ```
 
+ ``` shell
+sudo pip3 install -r requirements.txt
+  ```
 
 # AutoMemProc
 
