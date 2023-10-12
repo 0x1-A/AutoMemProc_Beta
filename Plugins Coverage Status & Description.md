@@ -1,12 +1,12 @@
-## PLUGIN STATUS
+# PLUGIN Coverage Status & Description  
 
-- **Image Identification**
+## Image Identification
 
    | Plugins  | Description |
    | ------------- | ------------- |
    | windows.info.Info  | Show OS & kernel details of the memory sample being analyzed  |
     
-- **Processes and DLLs**
+## Processes and DLLs
     
    | Plugins  | Description |
    | ------------- | ------------- |
@@ -26,7 +26,7 @@
    | windows.sessions.Sessions  | Lists Processes with Session information.  |
    | windows.joblinks.JobLinks  | Print process job link information.  |
 
-- **Process Memory**
+## Process Memory
     
    | Plugins  | Description |
    | ------------- | ------------- |
@@ -35,14 +35,14 @@
    | windows.virtmap.VirtMap  | Lists virtual mapped sections.  |
    | windows.vadwalk.VadWalk  | Walks the VAD tree. |
 
-- **Networking**
+## Networking
     
    | Plugins  | Description |
    | ------------- | ------------- |
    | windows.netscan.NetScan  | Scans for network objects in a memory image.  |
    | windows.netstat.NetStat  | Traverses network tracking structures.  |
 
-- **Kernal Memory and Object**
+## Kernal Memory and Object
     
    | Plugins  | Description |
    | ------------- | ------------- |
@@ -58,7 +58,7 @@
    | windows.ssdt.SSDT  | Lists the system call table.  |
    | windows.devicetree.DeviceTree  | Listing tree based on drivers and devices.  |
 
-- **Registry**
+## Registry
     
    | Plugins  | Description |
    | ------------- | ------------- |
@@ -74,21 +74,21 @@
    | windows.ssdt.SSDT  | Lists the system call table.  |
    | windows.devicetree.DeviceTree  | Listing tree based on drivers and devices.  |
   
-- **Crash Dumps, Hibernation, and Conversion**
+## Crash Dumps, Hibernation, and Conversion
     
    | Plugins  | Description |
    | ------------- | ------------- |
    | windows.crashinfo.Crashinfo  | Lists information from a Windows crash dump.  |
    | windows.cachedump.Cachedump | Extracts cached credentials.  |
 
-- **File System**
+## File System
     
    | Plugins  | Description |
    | ------------- | ------------- |
    | windows.mftscan.MFTScan  | Scans for MFT FILE objects.  |
    | windows.mbrscan.MBRScan | Scans for and parses Master Boot Records (MBRs).  |
 
-- **Miscellaneous**
+## Miscellaneous
     
    | Plugins  | Description |
    | ------------- | ------------- |
