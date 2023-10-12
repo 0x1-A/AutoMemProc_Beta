@@ -86,6 +86,10 @@ python3 vol.py -h
 # AutoMemProc
 
  ``` shell
+chmod +x AutoMemProc.ps1
+  ```
+
+ ``` shell
 pwsh AutoMemProc.ps1
   ```
 
