@@ -6,12 +6,6 @@ Write-Host "##########################" -ForegroundColor darkblue
 Write-Host ""
 Write-Host "Author: " -ForegroundColor Yellow -NoNewline; Write-Host "Atiah Aloufi" 
 Write-Host ""
-Write-Host "Capabilities:" -ForegroundColor DarkCyan
-Write-Host "# Volatility 3 v2.5.1 Plugins" -ForegroundColor White
-Write-Host "# Windowns Memory Images" -ForegroundColor White
-Write-Host "# Processing one memory image at the moment" -ForegroundColor White
-Write-Host "# The tool is optimized to work in a Unix environment only at the moment." -ForegroundColor White
-#Write-Host "# Supported Memory Image Types: .img, .dmp, .raw, .bin, .mem, .dump, .dat, .lime, .crash, .vmem, .hiberfil.sys" -ForegroundColor White
 
  $global:JobMetadata= @{}
 
