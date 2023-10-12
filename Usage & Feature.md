@@ -32,7 +32,7 @@
    Example:
 
    ```note
-   /opt/volatility3.2.5.1/vol.py
+   /path/to/vol.py
    ```
 
 ... Just pick a number from displayed list and follow the prompt ;)
