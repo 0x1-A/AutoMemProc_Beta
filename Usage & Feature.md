@@ -37,11 +37,11 @@
 
 ... Just pick a number from displayed list and follow the prompt ;)
 
-## Features 
+# Features 
 
-**Commands** 
+## Commands
 
-- Unversial Command; 
+**- Unversial Command** 
 
   - [help]
      - Help Message
@@ -54,7 +54,7 @@
   - [back]
      - To return to previous list"
        
-- These can be executed in the Plugin Categories Main;
+**- These can be executed in the Plugin Categories Main** 
 
   - [timeline]
     - Executes the Timeline plugin, provides a timeline of events."
