@@ -1,4 +1,4 @@
-## How to used AutoMemProc? in 3 steps .. 
+## How to use AutoMemProc?
 
 
 **1.Tool Execution**
