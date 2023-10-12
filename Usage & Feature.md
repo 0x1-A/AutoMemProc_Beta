@@ -54,7 +54,7 @@
   - [back]
      - To return to previous list"
        
-**- These can be executed in the Plugin Categories Main** 
+**- These can be executed in the Plugin Categories Menu** 
 
   - [timeline]
     - Executes the Timeline plugin, provides a timeline of events."
