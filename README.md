@@ -74,7 +74,7 @@ This feature underscores AutoMemProc's commitment to catering to both beginners,
 
 https://github.com/0x1-A/AutoMemProc-Beta/blob/Main/Usage%20%26%20Feature.md
 
-## Usage & Feature
+## How to Use AutoMemProc? & Features
 
 https://github.com/0x1-A/AutoMemProc-Beta/blob/Main/Usage%20%26%20Feature.md
 
