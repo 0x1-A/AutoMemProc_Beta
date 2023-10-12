@@ -66,9 +66,9 @@ This feature underscores AutoMemProc's commitment to catering to both beginners,
 **Single Memory Image**
 - The tool is designed to process a single selection of a Windows memory image at a time, ensuring a focused and thorough analysis for each chosen memory image.
 
-## Recommendtion
+## Recommendation
 
-- Store automemproc.ps1 in the same folder as the imagefile for faster file selection.
+- Store AutoMemProc.ps1 in the same folder as the imagefile for faster file selection.
 
 ## Contact
 
