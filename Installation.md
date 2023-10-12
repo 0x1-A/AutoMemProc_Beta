@@ -85,7 +85,7 @@ python3 vol.py -h
 
 # AutoMemProc
 
-- The tool need a high persmission to save files in the system folders, note, all output files that genrated from this tool is saved were the selected memory image is. 
+- The tool need a high persmission to save files in the system, note, all output files that generated from this tool is saved were the selected memory image is. 
 
  ``` shell
 sudo pwsh AutoMemProc.ps1
