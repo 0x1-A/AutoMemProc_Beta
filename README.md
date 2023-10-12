@@ -9,13 +9,13 @@ Educators or students in cybersecurity courses where memory analysis is a topic.
 ## Key Features
 
 **User-friendly interface**: AutoMemProc is designed with users in mind. Its straightforward design ensures even those unfamiliar with memory forensic tools can navigate with ease. Key features include:
-- **Path Input**: Users can directly specify paths to memory images without navigating through complex file hierarchies.
+- **Path Input**: Users can directly specify path to memory images without navigating through complex file hierarchies.
 - **Image Selection**: The tool intelligently detects and lists all available memory images from a specified directory, offering users a simple choice rather than manual file input.
-- **Numbered Options**: To simplify choices, menu options are associated with specific numbers, allowing for fast and mistake-free navigation.
+- **Numbered Options**: To simplify choices, menu options are associated with specific numbers, allowing for fast navigation.
 - **Command Simplicity**: All commands in AutoMemProc are optimized for clarity, ensuring users don't need extensive documentation to operate the tool.
 
 **Automatic Image Detection**: 
-- The tool automatically scans and detects all memory image files in the provided directory.
+- The tool automatically scans and detects all memory image files in the provided directory or if the tool in the same folder as memory image.
 - It then displays them in an easy-to-read list format, eliminating the need to remember exact file names.
 
 **Saved Paths**:
@@ -24,7 +24,7 @@ Educators or students in cybersecurity courses where memory analysis is a topic.
 
 **Plugin Interface**: 
 - AutoMemProc seamlessly integrates with Volatility.
-- After selecting an image, the tool transitions users to a menu dedicated to Volatility plugins. Here, they can pick and execute plugins directly without needing separate command-line inputs.
+- After selecting an image and location of the Volatility, the tool transitions users to a menu dedicated to Volatility plugins. Here, they can pick and execute plugins directly without needing separate command-line inputs.
 
 **Error Handling**: 
 - Recognizing that everyone can make mistakes, AutoMemProc is built to handle errors gracefully.
@@ -55,7 +55,7 @@ This feature underscores AutoMemProc's commitment to catering to both beginners,
   ps -ef
   ```
 
-## Capabilities
+## Current Capabilities
 
 **Unix-Centric Design** 
 - AutoMemProc is purpose-built for Unix-based systems. This includes popular Linux distributions such as Ubuntu, CentOS, and Fedora, as well as BSD variants and macOS. Its underlying structure and functionalities are optimized for the Unix environment.
@@ -69,6 +69,19 @@ This feature underscores AutoMemProc's commitment to catering to both beginners,
 ## Recommendations
 
 - Store AutoMemProc.ps1 in the same folder as the imagefile for faster file selection. 
+
+## Installation
+
+https://github.com/0x1-A/AutoMemProc-Beta/blob/Main/Usage%20%26%20Feature.md
+
+## Usage & Feature
+
+https://github.com/0x1-A/AutoMemProc-Beta/blob/Main/Usage%20%26%20Feature.md
+
+## Plugins Coverage Status & Description
+
+https://github.com/0x1-A/AutoMemProc-Beta/blob/Main/Plugins%20Coverage%20Status%20%26%20Description.md
+
 
 ## Contact
 
