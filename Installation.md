@@ -85,12 +85,10 @@ python3 vol.py -h
 
 # AutoMemProc
 
- ``` shell
-chmod +x AutoMemProc.ps1
-  ```
+- The tool need a high persmission to save files in the system folders, note, all output files that genrated from this tool is saved were the selected memory image is. 
 
  ``` shell
-pwsh AutoMemProc.ps1
+sudo pwsh AutoMemProc.ps1
   ```
 
 
