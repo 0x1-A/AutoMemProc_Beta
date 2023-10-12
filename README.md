@@ -87,8 +87,8 @@ https://github.com/0x1-A/AutoMemProc-Beta/blob/Main/Plugins%20Coverage%20Status%
 
 For information or requests, contact:
 
-**- Issue/Support:** https://github.com/0x1-A/AutoMemProc-Beta/issues
-**- Discussion:** https://github.com/0x1-A/AutoMemProc-Beta/discussions/2
-**- Ideas:** https://github.com/0x1-A/AutoMemProc-Beta/discussions/categories/ideas
+- **Issue/Support:** https://github.com/0x1-A/AutoMemProc-Beta/issues
+- **Discussion:** https://github.com/0x1-A/AutoMemProc-Beta/discussions/2
+- **Ideas:** https://github.com/0x1-A/AutoMemProc-Beta/discussions/categories/ideas
 
 **X - @atiahlaoufi**
