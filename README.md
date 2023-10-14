@@ -2,6 +2,8 @@
 
 AutoMemProc is a tool designed to simplify and streamline the process of analyzing memory dumps. Its main goal is to act  as an interface for the Volatility 3 framework version 2.5.0, enhancing the user experience with automation and user-friendly prompts.
 
+**Please note that this tool is currently under active development. Features and functionalities may be subject to change. Your feedback and patience are appreciated.**
+
 ## Target Audience
 Digital forensics professionals or researchers who often analyze memory dumps. Incident responders looking to quickly triage potentially compromised systems.
 Educators or students in cybersecurity courses where memory analysis is a topic.
