@@ -1,10 +1,11 @@
 ## Requirements
 
-1. Unix Environment (Linux, ubuntu ..etc).
+1. Unix OR Windows Environment. 
 2. Powershell.
-3. Volatility 3.2.5.0 (Volatility 3 requires Python 3.7.0 or later).
-4. Symbol Tables for (Offline Analysis).
-5. AutoMemProc
+3. Python version 3 or higher.
+4. Volatility 3.2.5.0
+5. Symbol Tables for (Offline Analysis).
+6. AutoMemProc
 
 ## Linux & ubuntu
 
