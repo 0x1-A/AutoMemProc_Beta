@@ -70,11 +70,11 @@ This feature underscores AutoMemProc's commitment to catering to both beginners,
 
 ## Installation
 
-https://github.com/0x1-A/AutoMemProc-Beta/blob/Main/Usage%20%26%20Feature.md
+
 
 ## How to Use AutoMemProc? & Features
 
-https://github.com/0x1-A/AutoMemProc-Beta/blob/Main/Usage%20%26%20Feature.md
+
 
 ## Plugins Coverage Status & Description
 
