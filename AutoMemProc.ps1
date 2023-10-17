@@ -12,7 +12,7 @@ Write-Host ""
 function ImagePath {
     param (
         [string]$prompt = "↬ Enter the path to the memory image file or directory: ",
-        [string[]]$imageFileExtensions = @("*.img", "*.dmp", "*.raw", "*.bin", "*.mem", "*.dump", "*.dat", "*.lime", "*.crash", "*.vmem") 
+        [string[]]$imageFileExtensions = @("*.img", "*.dmp", "*.raw", "*.bin", "*.mem", "*.dump", "*.dat", "*.lime", "*.crash", "*.vmem", "*.hiberfil.sys") 
     )
 
     function ListAndSelectFilesFromDirectory($directoryPath) {
@@ -584,12 +584,11 @@ function jobsupport {
 Write-Host""
 Write-Host "Background Jobs Plugins List: " -ForegroundColor Darkyellow
 Write-Host "- Timeline " -ForegroundColor yellow
-Write-Host "- MemMap" -ForegroundColor yellow
-Write-Host "- MBRScan" -ForegroundColor yellow
-Write-Host "- DeviceTree" -ForegroundColor yellow
-Write-Host "- PoolScanner" -ForegroundColor yellow
-Write-Host "- BigPools" -ForegroundColor yellow
-
+Write-Host "- Process Memory {MemMap}" -ForegroundColor yellow
+Write-Host "- File System {MBRScan}" -ForegroundColor yellow
+Write-Host "- Kernal Memory and Object {DeviceTree}" -ForegroundColor yellow
+Write-Host "- Miscellaneous {PoolScanner}" -ForegroundColor yellow
+Write-Host "- Miscellaneous {BigPools}" -ForegroundColor yellow
 }
 
 function Confirm-Action {
