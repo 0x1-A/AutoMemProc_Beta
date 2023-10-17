@@ -4409,44 +4409,72 @@ elseif ($pluginChoice -eq '8') {
         } 
 
 1 {
+    
+     if (Confirm-Action) {       
+    $grepTerms = Ask-UseGrep  
 
-if (Confirm-Action) { 
-    $grepTerms = Ask-UseGrep
+    $runInBackground = RunInBackground  
 
-    if ($grepTerms) {
-        $cleanKeywords = ($grepTerms -split ',' | ForEach-Object { $_.Trim() -replace '[^\w\d]', '_' }) -join "_"
-        $outputFileName = "MFTScan_keywords_${cleanKeywords}.txt"
-    } else {
-        $outputFileName = "MFTScan_output.txt"
-    }
+    $mainProcess = {
+        param($grepTerms, $volatilityPath, $memoryImagePath)
 
-    $command = "$volatilityPath -f $memoryImagePath windows.mftscan.MFTScan"
-    if ($grepTerms) {
-        $command += " | grep -i '$grepTerms'"
-    }
-    $imageinfoOutput = Invoke-Expression $command
-
-    $outputFile = Join-Path -Path (Get-Item $memoryImagePath).DirectoryName -ChildPath $outputFileName
-
-    if (Test-Path -Path $outputFile) {
-        $outputFile = Ask-Overwrite -filePath $outputFile
-        if (-not $outputFile) {
-            Write-Host "Aborted by user." -ForegroundColor Red
-            return
+        if ($grepTerms) {
+            $cleanKeywords = ($grepTerms -split ',' | ForEach-Object { $_.Trim() -replace '[^\w\d]', '_' }) -join "_"
+            $outputFileName = "MFTScan_keywords_${cleanKeywords}.txt"
+        } else {
+            $outputFileName = "MFTScan_output.txt"
         }
+
+        $command = "$volatilityPath -f $memoryImagePath windows.mftscan.MFTScan"
+        
+        if ($grepTerms) {
+            $command += " | grep -i '$grepTerms'"
+        }
+        $modscanOutput = Invoke-Expression $command
+
+        $outputFile = Join-Path -Path (Get-Item $memoryImagePath).DirectoryName -ChildPath $outputFileName
+
+        if (Test-Path -Path $outputFile) {
+            $outputFile = Ask-Overwrite -filePath $outputFile
+            if (-not $outputFile) {
+                Write-Host "Aborted by user." -ForegroundColor Red
+                return
+            }
+        }
+
+        if ($grepTerms) {
+            $header = "Filtered by keywords: $($grepTerms)"
+            $header | Out-File -FilePath $outputFile -Encoding utf8 -Append
+        }
+
+        $modscanOutput | Out-File -FilePath $outputFile -Encoding utf8 -Append
     }
 
-    if ($grepTerms) {
-        $header = "Filtered by keywords: $($grepTerms)"
-        $header | Out-File -FilePath $outputFile -Encoding utf8 -Append
+if ($runInBackground) {
+    $job = Start-Job -ScriptBlock $mainProcess -ArgumentList $grepTerms, $volatilityPath, $memoryImagePath -Name "MFTScan"
+
+    Write-Host ""
+    Write-Host "########################################################" -ForegroundColor Yellow
+    Write-Host " MFTScan Plugin started as a background job with ID: $($job.Id)" -ForegroundColor Yellow
+    Write-Host "########################################################" -ForegroundColor Yellow
+    Write-Host ""
+    Write-Host "Notes ↓" -ForegroundColor Yellow
+    Write-Host "1- Background Job's Cancelled upon termination of the tool." -ForegroundColor Red
+    Write-Host "2- Check the Status by typing job -all." -ForegroundColor Red
+    Write-Host "2- Remove the Background Job's by typing job -r." -ForegroundColor Red
+    Write-Host ""
+
+    $global:JobMetadata[$job.Id] = @{
+        'Name'      = "MFTScan";
+        'GrepTerms' = $grepTerms
     }
-
-    $imageinfoOutput | Out-File -FilePath $outputFile -Encoding utf8 -Append
-
-    Write-Host ""
-    Write-Host "MFTScan Plugin Output saved to $outputFile" -ForegroundColor Green
-    Write-Host ""
 }
+
+    else {
+        $mainProcess.Invoke($grepTerms, $volatilityPath, $memoryImagePath)
+        Write-Host "Timeline Plugin has completed and the output is saved to $outputFile" -ForegroundColor Green
+    }
+    }
 }
 
 
