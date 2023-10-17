@@ -101,6 +101,7 @@ However, this process only needs to be run once on each new symbol file, so assu
 pwsh AutoMemProc.ps1
   ```
 
+**Important:** Save the tool were images files are.
 
 
 
