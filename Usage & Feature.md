@@ -21,11 +21,6 @@
    /home/test/Desktop/memory/memory.img
    ```
 
-   OR 
-
-   ```note
-   ~/Desktop/memory/
-   ```
 
 **3.Type Volatility Path** (After entering the path, select 'y' to save it in a '.txt' file. This ensures you won't need to re-enter the path in future uses.)
    
