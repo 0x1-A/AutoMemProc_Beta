@@ -70,7 +70,7 @@ This feature underscores AutoMemProc's commitment to catering to both beginners,
 
 ## Installation
 
-
+https://github.com/0x1-A/AutoMemProc_Beta/blob/Main/Installation.md
 
 ## How to Use AutoMemProc? & Features
 
