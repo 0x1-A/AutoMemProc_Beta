@@ -4,7 +4,7 @@
 **1.Tool Execution**
 
    ```shell
-   sudo pwsh automemproc.ps1
+   sudo pwsh AutoMemProc.ps1
    ```
 
 **2.Type Image File/folder Path** (You dont need to do this step if Tool & ImageFile in the same folder)
