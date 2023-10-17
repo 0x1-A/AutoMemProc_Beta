@@ -5,7 +5,7 @@ AutoMemProc is a tool designed to simplify and streamline the process of analyzi
 **Please note that this tool is currently under active development. Features and functionalities may be subject to change. Your feedback and patience are appreciated.**
 
 ## Target Audience
-Digital forensics professionals or researchers who often analyze memory dumps. Incident responders looking to quickly triage potentially compromised systems.
+Digital forensics professionals or researchers who often analyze memory dumps. Incident responders looking to quickly triage memory image of potentially compromised systems.
 Educators or students in cybersecurity courses where memory analysis is a topic.
    
 ## Key Features
@@ -60,7 +60,7 @@ This feature underscores AutoMemProc's commitment to catering to both beginners,
 ## Current Capabilities
 
 **Unix-Centric Design** 
-- AutoMemProc is purpose-built for Unix-based systems. This includes popular Linux distributions such as Ubuntu, CentOS, and Fedora, as well as BSD variants and macOS. Its underlying structure and functionalities are optimized for the Unix environment.
+- AutoMemProc is purpose-built for Unix-based systems. This includes popular Linux distributions such as Ubuntu, CentOS,..ect. Its underlying structure and functionalities are optimized for the Unix environment.
 
 **Windows Memory Image Analysis**
 - While the tool operates within a Unix environment, it specializes in analyzing memory images from Windows systems. This dual compatibility makes it versatile for forensic analyses, especially when Windows systems are the subjects of investigation but the analysis is carried out on Unix platforms.
