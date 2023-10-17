@@ -74,12 +74,11 @@ https://github.com/0x1-A/AutoMemProc_Beta/blob/Main/Installation.md
 
 ## How to Use AutoMemProc? & Features
 
-
+https://github.com/0x1-A/AutoMemProc_Beta/blob/Main/Usage%20%26%20Feature.md
 
 ## Plugins Coverage Status & Description
 
 https://github.com/0x1-A/AutoMemProc-Beta/blob/Main/Plugins%20Coverage%20Status%20%26%20Description.md
-
 
 ## Contact
 
