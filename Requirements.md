@@ -1,6 +1,6 @@
 ## Requirements
 
-1. Unix OSystem. 
+1. Unix System. 
 2. Powershell.
 3. Python version 3 or higher.
 4. Volatility 3.2.5.0
