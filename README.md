@@ -48,9 +48,9 @@ This feature underscores AutoMemProc's commitment to catering to both beginners,
 
 - Ensure proper permissions are granted for this tool to execute without errors.
 - The results of the plugins are not displayed directly in the terminal. Instead, they are saved as .txt files in the same directory as the selected memory image file.
-- The Process Dump Plugin, create a folder in the same location as the image file to store its outputs. 
+- The Dump Plugin {DumpFiles}, create a folder in the same directory as the selected memory image file to store its outputs. 
 - Some Plugin have the ability to run background job used 'job -s' to check supported plugins.
-- Please ensure you do not exit the tool until your background job completed, as exiting while a job is active will terminate the jobs.
+- Please ensure you do not exit the tool until your background job completed, as exiting while a job is active will terminate the job.
 - If you would like to view the active background job running using terminal,
 
  ``` shell
