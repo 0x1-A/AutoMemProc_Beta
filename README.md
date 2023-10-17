@@ -44,7 +44,7 @@ Educators or students in cybersecurity courses where memory analysis is a topic.
 
 This feature underscores AutoMemProc's commitment to catering to both beginners, who might prefer a structured interface, and advanced users, who might need the flexibility and power of direct CLI access.
 
-## Key Point
+## Key Points
 
 - Ensure proper permissions are granted for this tool to execute without errors.
 - The results of the plugins are not displayed directly in the terminal. Instead, they are saved as .txt files in the same directory as the selected memory image file.
