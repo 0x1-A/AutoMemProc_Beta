@@ -7,7 +7,7 @@ Write-Host ""
 Write-Host "Author: " -ForegroundColor Yellow -NoNewline; Write-Host "Atiah Aloufi" 
 Write-Host ""
 
-Write-Host "This version was developed for those using Volatility 3 in a Unix environment. :)"
+Write-Host "This version was developed for those using Volatility 3 in a Unix system. :)"
 Write-Host ""
  $global:JobMetadata= @{}
 
