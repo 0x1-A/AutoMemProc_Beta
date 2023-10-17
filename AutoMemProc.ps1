@@ -7,14 +7,12 @@ Write-Host ""
 Write-Host "Author: " -ForegroundColor Yellow -NoNewline; Write-Host "Atiah Aloufi" 
 Write-Host ""
 
-Write-Host "This version was developed for those using Volatility 3 in a Unix system. :)"
-Write-Host ""
  $global:JobMetadata= @{}
 
 function ImagePath {
     param (
         [string]$prompt = "↬ Enter the path to the memory image file or directory: ",
-        [string[]]$imageFileExtensions = @("*.img", "*.dmp", "*.raw", "*.bin", "*.mem", "*.dump", "*.dat", "*.lime", "*.crash", "*.vmem", "*.hiberfil.sys") 
+        [string[]]$imageFileExtensions = @("*.img", "*.dmp", "*.raw", "*.bin", "*.mem", "*.dump", "*.dat", "*.lime", "*.crash", "*.vmem") 
     )
 
     function ListAndSelectFilesFromDirectory($directoryPath) {
