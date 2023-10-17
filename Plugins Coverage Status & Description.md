@@ -70,10 +70,7 @@
    | windows.registry.userassist.UserAssist  | Print userassist registry keys and information.  |
    | windows.hashdump.Hashdump  | Dumps user hashes from memory.  |
    | windows.lsadump.Lsadump  | Dumps LSA secrets from memory.  |
-   | windows.callbacks.Callbacks  | Lists kernel callbacks and notification routines.  |
-   | windows.ssdt.SSDT  | Lists the system call table.  |
-   | windows.devicetree.DeviceTree  | Listing tree based on drivers and devices.  |
-  
+
 ## Crash Dumps, Hibernation, and Conversion
     
    | Plugins  | Description |
