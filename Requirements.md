@@ -4,7 +4,7 @@
 2. Powershell.
 3. Python version 3 or higher.
 4. Volatility 3.2.5.0
-5. Symbol Tables for (Offline Analysis).
+5. Symbol Tables (Offline Analysis).
 6. AutoMemProc
 
 ## Linux & ubuntu
