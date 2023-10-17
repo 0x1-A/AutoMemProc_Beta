@@ -1375,7 +1375,12 @@ Write-Host "Back to Plugin Categories" -ForegroundColor Yellow
 Write-Host "[" -ForegroundColor DarkYellow -NoNewline
 Write-Host "1" -ForegroundColor DarkYellow -NoNewline
 Write-Host "] " -ForegroundColor DarkYellow -NoNewline
+Write-Host "MFTScan - Scans for MFT FILE objects." -ForegroundColor Cyan
+Write-Host "[" -ForegroundColor DarkYellow -NoNewline
+Write-Host "2" -ForegroundColor DarkYellow -NoNewline
+Write-Host "] " -ForegroundColor DarkYellow -NoNewline
 Write-Host "MBRScan - Scans and parses potential Master Boot Records (MBRs)." -ForegroundColor Cyan
+
 
     $jobs = Get-Job
 
@@ -4403,7 +4408,50 @@ elseif ($pluginChoice -eq '8') {
         "timeline" {
              timeline
         } 
-1 { 
+
+1 {
+
+if (Confirm-Action) { 
+    $grepTerms = Ask-UseGrep
+
+    if ($grepTerms) {
+        $cleanKeywords = ($grepTerms -split ',' | ForEach-Object { $_.Trim() -replace '[^\w\d]', '_' }) -join "_"
+        $outputFileName = "MFTScan_keywords_${cleanKeywords}.txt"
+    } else {
+        $outputFileName = "MFTScan_output.txt"
+    }
+
+    $command = "$volatilityPath -f $memoryImagePath windows.mftscan.MFTScan"
+    if ($grepTerms) {
+        $command += " | grep -i '$grepTerms'"
+    }
+    $imageinfoOutput = Invoke-Expression $command
+
+    $outputFile = Join-Path -Path (Get-Item $memoryImagePath).DirectoryName -ChildPath $outputFileName
+
+    if (Test-Path -Path $outputFile) {
+        $outputFile = Ask-Overwrite -filePath $outputFile
+        if (-not $outputFile) {
+            Write-Host "Aborted by user." -ForegroundColor Red
+            return
+        }
+    }
+
+    if ($grepTerms) {
+        $header = "Filtered by keywords: $($grepTerms)"
+        $header | Out-File -FilePath $outputFile -Encoding utf8 -Append
+    }
+
+    $imageinfoOutput | Out-File -FilePath $outputFile -Encoding utf8 -Append
+
+    Write-Host ""
+    Write-Host "MFTScan Plugin Output saved to $outputFile" -ForegroundColor Green
+    Write-Host ""
+}
+}
+
+
+2 { 
     
      if (Confirm-Action) {       
     $grepTerms = Ask-UseGrep
