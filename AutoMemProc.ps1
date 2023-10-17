@@ -5,7 +5,6 @@ Write-Host " #    AutoMemProc.ps1   #" -ForegroundColor darkblue
 Write-Host "##########################" -ForegroundColor darkblue
 Write-Host ""
 Write-Host "Author: " -ForegroundColor Yellow -NoNewline; Write-Host "Atiah Aloufi" 
-Write-Host ""
 
  $global:JobMetadata= @{}
 
