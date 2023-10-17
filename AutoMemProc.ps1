@@ -11,7 +11,7 @@ Write-Host "Author: " -ForegroundColor Yellow -NoNewline; Write-Host "Atiah Alou
 function ImagePath {
     param (
         [string]$prompt = "↬ Enter the path to the memory image file or directory: ",
-        [string[]]$imageFileExtensions = @("*.img", "*.dmp", "*.raw", "*.bin", "*.mem", "*.dump", "*.dat", "*.lime", "*.crash", "*.vmem", "*.hiberfil.sys") 
+        [string[]]$imageFileExtensions = @("*.img", "*.dmp", "*.raw", "*.bin", "*.mem", "*.dump", "*.dat","*.crash", "*.vmem") 
     )
 
     function ListAndSelectFilesFromDirectory($directoryPath) {
