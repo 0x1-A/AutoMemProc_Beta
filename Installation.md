@@ -101,7 +101,7 @@ However, this process only needs to be run once on each new symbol file, so assu
 Sudo pwsh AutoMemProc.ps1
   ```
 
-**Important:** Save the tool were images files are.
+**Important:** Save the tool in the same folder as memory images files.
 
 
 
