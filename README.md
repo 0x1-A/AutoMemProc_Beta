@@ -65,8 +65,14 @@ This feature underscores AutoMemProc's commitment to catering to both beginners,
 **Windows Memory Image Analysis**
 - While the tool operates within a Unix environment, it specializes in analyzing memory images from Windows systems. This dual compatibility makes it versatile for forensic analyses, especially when Windows systems are the subjects of investigation but the analysis is carried out on Unix platforms.
 
+**Volatility3 Windows Plugin**
+- The tool is curently support only Volatility3 Windows Plugin that you can found the Plugins Coverage Status & Description as following;
+
+https://github.com/0x1-A/AutoMemProc_Beta/blob/Main/Plugins%20Coverage%20Status%20%26%20Description.md
+
 **Single Memory Image**
 - The tool is designed to process a single selection of a Windows memory image at a time, ensuring a focused and thorough analysis for each chosen memory image.
+
 
 ## Installation
 
