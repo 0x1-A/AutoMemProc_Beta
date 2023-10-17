@@ -1,4 +1,4 @@
-# PLUGIN Coverage Status & Description  
+# Plugins Coverage Status & Description  
 
 ## Image Identification
 
