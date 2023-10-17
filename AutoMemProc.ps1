@@ -584,8 +584,9 @@ Write-Host""
 Write-Host "Background Jobs Plugins List: " -ForegroundColor Darkyellow
 Write-Host "- Timeline " -ForegroundColor yellow
 Write-Host "- Process Memory {MemMap}" -ForegroundColor yellow
-Write-Host "- File System {MBRScan}" -ForegroundColor yellow
 Write-Host "- Kernal Memory and Object {DeviceTree}" -ForegroundColor yellow
+Write-Host "- File System {MFTScan}" -ForegroundColor yellow
+Write-Host "- File System {MBRScan}" -ForegroundColor yellow
 Write-Host "- Miscellaneous {PoolScanner}" -ForegroundColor yellow
 Write-Host "- Miscellaneous {BigPools}" -ForegroundColor yellow
 }
