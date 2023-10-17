@@ -98,7 +98,7 @@ However, this process only needs to be run once on each new symbol file, so assu
 # AutoMemProc
 
  ``` shell
-pwsh AutoMemProc.ps1
+Sudo pwsh AutoMemProc.ps1
   ```
 
 **Important:** Save the tool were images files are.
